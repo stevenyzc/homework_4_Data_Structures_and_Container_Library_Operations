@@ -67,6 +67,8 @@ public:
     {
         delete[] p; // 释放内存
         p=nullptr; // 将野指针设为空指针
+        _capacity=0; // 容量初始化为0
+        _size=0; // 元素个数初始化为0
     }
 };
 
